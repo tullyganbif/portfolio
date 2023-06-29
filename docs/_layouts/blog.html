@@ -12,7 +12,7 @@
             <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
           </h2>
           <p class=""project-description">{{post.description}}</small>
-          <small class="date">{{post.date}}</small>
+          <small class="date">{{post.dateString}}</small>
           <div class="categories">
             {% for c in post.categories %}
             <a href="#!" data-base-url="{{site.baseurl}}" class="category"
