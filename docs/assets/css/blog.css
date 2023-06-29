@@ -50,7 +50,7 @@ main {
 #bio {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
 }
 #img-wrapper img {
   border-radius: 50%;
