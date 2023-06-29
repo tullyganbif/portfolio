@@ -108,6 +108,7 @@ main {
 .articles .article .date {
   display: block;
   font-size: 0.8rem;
+  padding-bottom: 0.5rem;
 }
 .articles .article .categories {
   display: flex;
@@ -126,6 +127,13 @@ main {
   line-height: 1.3rem;
   cursor: pointer;
 }
+
+/* custom css */
+.project-description {
+  padding-bottom: 1rem;
+  line-height: 150%;
+}
+
 /* media query */
 
 @media screen and (max-width: 750px) {

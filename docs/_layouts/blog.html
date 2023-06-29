@@ -7,7 +7,9 @@
       <section class="articles">
         {% for post in site.posts %}
         <article class="article">
+          {% if post.img %}
           <img src="{{post.img}}" alt="" />
+          {% endif %}
           <h2 class="article-title">
             <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
           </h2>
@@ -15,8 +17,8 @@
           <small class="date">{{post.dateString}}</small>
           <div class="categories">
             {% for c in post.categories %}
-            <a href="#!" data-base-url="{{site.baseurl}}" class="category"
-              >{{c}}</a
+            <p class="category"
+              >{{c}}</p
             >
             {% endfor %}
           </div>
