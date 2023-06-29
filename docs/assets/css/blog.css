@@ -129,7 +129,7 @@ main {
 }
 
 /* custom css */
-.articles. .article .project-description {
+.project-description {
   padding-bottom: 1rem;
   line-height: 150%;
 }
