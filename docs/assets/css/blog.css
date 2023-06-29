@@ -108,7 +108,7 @@ main {
 .articles .article .date {
   display: block;
   font-size: 0.8rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
 }
 .articles .article .categories {
   display: flex;
