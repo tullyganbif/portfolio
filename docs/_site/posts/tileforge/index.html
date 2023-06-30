@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jessy Leigh Gervais | TileForge</title>
+  
+  <link rel="stylesheet" href="/assets/css/post.css" />
+  <link rel="stylesheet" href="/assets/css/syntax.css" />
+  
+  <link rel="stylesheet" href="/assets/css/common.css" />
+  <script src="/assets/js/categories.js"></script>
+  
+  <script defer src="/assets/js/lbox.js"></script>
+  
+</head>
+
+  <body>
+    <main>
+      <header>
+  <div class="header-wrapper">
+    <section id="img-wrapper" class="header-image-wrapper">
+      <img width="96px" height="96px" src="https://scontent-lga3-2.xx.fbcdn.net/v/t31.18172-8/14481757_10154504020507154_5145683359580108567_o.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=r1hYWxQMZLQAX-KLOYi&_nc_ht=scontent-lga3-2.xx&oh=00_AfCYJ0poumWMSW7SDhgUKQSPyy0LI5dB3bJPW8_0xLbauQ&oe=64C4F011" alt="" />
+    </section>
+    <a class="site-title" href="/">Jessy Leigh Gervais</a>
+  </div>
+</header>
+
+      <section class="article">
+        <div class="article-header">
+          <h2 class="article-title">TileForge</h2>
+          <small class="date">2023-06-29 00:00:00 -0300</small>
+          <div class="categories">
+            
+            <a href="#!" class="category">React</a>
+            
+            <a href="#!" class="category">NextJS</a>
+            
+            <a href="#!" class="category">TypeScript</a>
+            
+            <a href="#!" class="category">PixiJS</a>
+            
+            <a href="#!" class="category">Supabase</a>
+            
+          </div>
+        </div>
+        <div class="content"><p>TileForge is a dynamic, user-friendly, online map builder designed for tabletop role-playing games. A free-to-use tool, it empowers users to draw and embellish intricate maps, like a medieval castle, a bustling tavern, or an enchanted forest. This tool is a perfect companion to Virtual Tabletops (VTTs like Roll20), allowing users to create and play immersive tabletop role-playing games virtually.</p>
+
+<h2 id="mission-statement">Mission Statement</h2>
+
+<p>To create a user-friendly map builder that allows anyone to design a visually stunning map in under 15 minutes.</p>
+
+<h2 id="technology-stack">Technology Stack</h2>
+
+<p>To provide a seamless user experience and ensure optimal performance, we utilized a robust tech stack:</p>
+
+<ul>
+  <li>Supabase</li>
+  <li>NextJS</li>
+  <li>React</li>
+  <li>React Redux</li>
+  <li>PixiJS [Extended]</li>
+  <li>Tailwind CSS</li>
+  <li>Vercel</li>
+</ul>
+
+<h2 id="development-history">Development History</h2>
+
+<p>After a constructive 6-month beta period with 700 avid users, our compact team of two initiated a complete overhaul of our map builder, basing every change and improvement on valuable user feedback. Less than 5% of the original codebase was retained, marking a significant evolution of TileForge. We started development of this improved version in early January 2023, culminating in a public launch in May 2023.</p>
+
+<p>During this development phase, I spearheaded 95% of the tasks, which included:</p>
+
+<ul>
+  <li>Seamlessly migrating the database from Firebase to Supabase.</li>
+  <li>Upgrading PixiJS to v7 for enhanced graphics.</li>
+  <li>Reworking all collision logic for wall and floor textures to optimize map integrity.</li>
+  <li>Redesigning UI/UX for a smoother, intuitive user experience.</li>
+</ul>
+
+<h2 id="roles-and-responsibilities">Roles and Responsibilities</h2>
+
+<ul>
+  <li><strong>Led UI/UX Design</strong>: Created an intuitive and user-friendly design to enhance the product experience.</li>
+  <li><strong>Conducted Customer Discovery</strong>: Engaged in 1:1 interviews and distributed surveys to gather user feedback and needs, thereby shaping our product direction.</li>
+  <li><strong>Database Design</strong>: Structured and optimized the database for maximum efficiency and data integrity.</li>
+  <li><strong>Managed Project</strong>: Created and managed tasks and sprints, ensuring the timely delivery of features and updates.</li>
+  <li><strong>Developed Core Features</strong>: Worked on pivotal feature development to enhance user experience and product usability.</li>
+  <li><strong>Created Core Art Assets</strong>: Designed visually appealing art assets to elevate the aesthetic appeal of our tool.</li>
+</ul>
+
+<h2 id="features">Features</h2>
+
+<p><strong>Dynamic Lighting:</strong> Dynamic lighting allows users to create lights (e.g. candle) that do not penetrate walls. Combined with color filters, these lights allow for a more emmersive map.</p>
+
+<p><strong>Wall Intersections:</strong> When testing our competitor’s tools, the wall tool was where things would break in stress testing. We managed to build a robust wall tool that can handle everything the average use would throw at it.</p>
+
+<p><strong>Stair Tool:</strong> In our original version of the builder, placing stairs was a challenge. Even though you could see the map layer below as you placed the second story staircase, you often had them misaligned. The stair tool solves this issue by automatically placing stairs above/below the active staircase.</p>
+
+<p><strong>Portal Tool:</strong> The most math intensive tool, portals can be placed along any valid wall and will automatically remove/add the wall beneath upon placing and deleting. The tool adapts to the portal size so that the art assets are not restricted like some tools.</p>
+
+<h2 id="future-developments">Future Developments</h2>
+
+<p>We’re constantly striving to innovate and enhance the capabilities of TileForge. Our current endeavor is the integration of an AI-driven dungeon generator and room decorator. This feature will further simplify map creation and enable users to create good-looking maps in significantly less time. By continuing to listen to our community and refine our tool, we aim to remain at the forefront of virtual map creation for tabletop role-playing games.</p>
+
+<h2 id="elaborated-challenges--solutions">Elaborated Challenges &amp; Solutions</h2>
+
+<h3 id="challenge-1-wall-corners--the-janky-conundrum">Challenge 1: Wall Corners – The Janky Conundrum</h3>
+
+<p>One of the most prominent challenges in 2D graphics engines is texture/UV mapping, particularly around corners. After several attempts and iterations with this approach, we found the results to be far from ideal – let’s just say it was rather “janky”.</p>
+
+<p>The primary issue was rendering wall textures that didn’t necessitate a low-resolution image being stretched, sliced, or rotated to fill the triangles created by the UV mapping around corners. We knew we needed a different approach.</p>
+
+<h4 id="solution-1-masking">Solution 1: Masking</h4>
+
+<p>To combat this, we shifted our strategy from mapping textures to employing masking techniques. Instead of wrapping a texture around the corner based on a single set of points (one line), we would offset the lines to both sides and create two polygons (or one polygon in the case of open loops). One polygon would represent the outer perimeter,</p>
+
+<p>while the other would form the hole in the center. Once the texture was drawn and masked, the black outline was added using the polygons.</p>
+
+<p>This alternative method allowed us to develop tiling wall textures that remained consistent and free from distortion, as the masks would only reveal the texture where the wall was intended to be.</p>
+
+<h3 id="challenge-2-wall-intersections">Challenge 2: Wall Intersections</h3>
+
+<p>While our inventive masking technique solved the issue with wall corners, it also amplified the intricacy of wall intersections.</p>
+
+<p>Initially, walls were drawn as separate objects in a PIXI container that could be individually deleted. If a wall was drawn atop another, it simply appeared above it. However, with the masking technique, all textures were flattened to a single texture layer masked using polygon data. Individual walls were no longer identifiable, as all the polygons had to be reduced down based on their intersections. This posed a significant problem: there’s a myriad of possible combinations for overlapping polygon intersections, each requiring isolation, condition writing, and testing.</p>
+
+<h4 id="solution-2-whiteboard-sessions--persistence">Solution 2: Whiteboard Sessions + Persistence</h4>
+
+<p>Our approach to this was exhaustive but effective: a multitude of whiteboard sessions dedicated to identifying every possible intersection condition and illustrating them. For example, a polygon could overlap the perimeter of another, or a polygon could be inside another but not touch the perimeter.</p>
+
+<p>The complexity grew when considering PixiJS does not permit drawing holes within holes, a scenario that frequently occurs when designing large building layouts. To solve this, we developed a tracking system for parent-child relationships during boolean functions, ensuring the correct assignment of holes to their parent polygons at the end of the sequence.</p>
+
+<p>For each intersection case, we determined what boolean functions needed to be applied and constructed a stack that processed through each existing polygon on the map sequentially. As new polygons were created from boolean functions (e.g., a new hole was formed), they were added to the stack and processed in the correct order. This stack was vital to avoid any out-of-sequence holes or polygons that would result in incorrect parent-child relationships when the final polygons were rendered by PixiJS.</p>
+
+<h3 id="challenge-3-image-transfer-costs--data-overhead">Challenge 3: Image Transfer Costs – Data Overhead</h3>
+
+<p>TileForge, being a web-based application, doesn’t have the benefit of storing art assets locally like some competitors do. This means that each time a user logs in, all art textures need to be requested from the database and loaded into the app, which could lead to significant data transfer costs (~10-15mb of assets each login) when operating at scale.</p>
+
+<h4 id="solution-3-local-caching">Solution 3: Local Caching</h4>
+
+<p>We employed browser caching to locally store the images temporarily in the user’s local storage. When a user logs in, the app checks if the assets already exist and loads them in if necessary. If new or updated assets are detected, the app reloads those assets to ensure the user always has the most current versions of the art. This strategy effectively mitigates high data transfer costs while maintaining a smooth and up-to-date user experience.</p>
+</div>
+      </section>
+      <footer>
+  <p>&copy; 2023 | Jessy Leigh Gervais</p>
+</footer>
+
+    </main>
+    <section id="category-modal-bg"></section>
+<section id="category-modal">
+  <h1 id="category-modal-title"></h1>
+  <section id="category-modal-content"></section>
+</section>
+
+  </body>
+</html>

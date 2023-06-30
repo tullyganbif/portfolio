@@ -1,180 +1,173 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-29T12:30:00-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jekyll Serial Programmer</title><author><name>Sharad Raj Singh Maurya</name><email>dev_sharad@outlook.com</email></author><entry><title type="html">Jekyll Markdown</title><link href="http://localhost:4000/posts/jekyll-markdown/" rel="alternate" type="text/html" title="Jekyll Markdown" /><published>2021-11-04T00:00:00-03:00</published><updated>2021-11-04T00:00:00-03:00</updated><id>http://localhost:4000/posts/jekyll-markdown</id><content type="html" xml:base="http://localhost:4000/posts/jekyll-markdown/"><![CDATA[<p>Text can be <strong>bold</strong>, <em>italic</em>, <del>strikethrough</del> or <code class="language-plaintext highlighter-rouge">keyword</code></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-30T10:17:47-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jessy Leigh Gervais</title><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><entry><title type="html">TileForge</title><link href="http://localhost:4000/posts/tileforge/" rel="alternate" type="text/html" title="TileForge" /><published>2023-06-29T00:00:00-03:00</published><updated>2023-06-29T00:00:00-03:00</updated><id>http://localhost:4000/posts/tileforge</id><content type="html" xml:base="http://localhost:4000/posts/tileforge/"><![CDATA[<p>TileForge is a dynamic, user-friendly, online map builder designed for tabletop role-playing games. A free-to-use tool, it empowers users to draw and embellish intricate maps, like a medieval castle, a bustling tavern, or an enchanted forest. This tool is a perfect companion to Virtual Tabletops (VTTs like Roll20), allowing users to create and play immersive tabletop role-playing games virtually.</p>
 
-<p><a href="./another-page.html">Link to another page</a>.</p>
+<h2 id="mission-statement">Mission Statement</h2>
 
-<p>There should be whitespace between paragraphs.</p>
+<p>To create a user-friendly map builder that allows anyone to design a visually stunning map in under 15 minutes.</p>
 
-<p>There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.</p>
+<h2 id="technology-stack">Technology Stack</h2>
 
-<h4 id="image">Image</h4>
-
-<p>Images can be clicked to enlarge :)</p>
-
-<p><img src="https://picsum.photos/1366/768" alt="Dummy Image 1" />
-<img src="https://picsum.photos/1200/400" alt="Dummy Image 2" /></p>
-
-<h1 id="header-1">Header 1</h1>
-
-<p>This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
-
-<h2 id="header-2">Header 2</h2>
-
-<blockquote>
-  <p>This is a blockquote following a header.</p>
-
-  <p>When something is important enough, you do it even if the odds are not in your favor.</p>
-</blockquote>
-
-<h3 id="header-3">Header 3</h3>
-
-<blockquote>
-  <p>This is another blockquote following header 3</p>
-</blockquote>
-
-<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Javascript code with syntax highlighting.</span>
-<span class="kd">var</span> <span class="nx">fun</span> <span class="o">=</span> <span class="kd">function</span> <span class="nx">lang</span><span class="p">(</span><span class="nx">l</span><span class="p">)</span> <span class="p">{</span>
-  <span class="nx">dateformat</span><span class="p">.</span><span class="nx">i18n</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="dl">"</span><span class="s2">./lang/</span><span class="dl">"</span> <span class="o">+</span> <span class="nx">l</span><span class="p">);</span>
-  <span class="k">return</span> <span class="kc">true</span><span class="p">;</span>
-<span class="p">};</span>
-</code></pre></div></div>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Ruby code with syntax highlighting</span>
-<span class="no">GitHubPages</span><span class="o">::</span><span class="no">Dependencies</span><span class="p">.</span><span class="nf">gems</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">gem</span><span class="p">,</span> <span class="n">version</span><span class="o">|</span>
-  <span class="n">s</span><span class="p">.</span><span class="nf">add_dependency</span><span class="p">(</span><span class="n">gem</span><span class="p">,</span> <span class="s2">"= </span><span class="si">#{</span><span class="n">version</span><span class="si">}</span><span class="s2">"</span><span class="p">)</span>
-<span class="k">end</span>
-</code></pre></div></div>
-
-<h4 id="header-4">Header 4</h4>
+<p>To provide a seamless user experience and ensure optimal performance, we utilized a robust tech stack:</p>
 
 <ul>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
-  <li>This is an unordered list following a header.</li>
+  <li>Supabase</li>
+  <li>NextJS</li>
+  <li>React</li>
+  <li>React Redux</li>
+  <li>PixiJS [Extended]</li>
+  <li>Tailwind CSS</li>
+  <li>Vercel</li>
 </ul>
 
-<h5 id="header-5">Header 5</h5>
+<h2 id="development-history">Development History</h2>
 
-<ol>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-  <li>This is an ordered list following a header.</li>
-</ol>
+<p>After a constructive 6-month beta period with 700 avid users, our compact team of two initiated a complete overhaul of our map builder, basing every change and improvement on valuable user feedback. Less than 5% of the original codebase was retained, marking a significant evolution of TileForge. We started development of this improved version in early January 2023, culminating in a public launch in May 2023.</p>
 
-<h6 id="header-6">Header 6</h6>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">head1</th>
-      <th style="text-align: left">head two</th>
-      <th style="text-align: left">three</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good swedish fish</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">out of stock</td>
-      <td style="text-align: left">good and plenty</td>
-      <td style="text-align: left">nice</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">oreos</code></td>
-      <td style="text-align: left">hmm</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">ok</td>
-      <td style="text-align: left">good <code class="language-plaintext highlighter-rouge">zoute</code> drop</td>
-      <td style="text-align: left">yumm</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="theres-a-horizontal-rule-below-this">There’s a horizontal rule below this.</h3>
-
-<hr />
-
-<h3 id="here-is-an-unordered-list">Here is an unordered list:</h3>
+<p>During this development phase, I spearheaded 95% of the tasks, which included:</p>
 
 <ul>
-  <li>Item foo</li>
-  <li>Item bar</li>
-  <li>Item baz</li>
-  <li>Item zip</li>
+  <li>Seamlessly migrating the database from Firebase to Supabase.</li>
+  <li>Upgrading PixiJS to v7 for enhanced graphics.</li>
+  <li>Reworking all collision logic for wall and floor textures to optimize map integrity.</li>
+  <li>Redesigning UI/UX for a smoother, intuitive user experience.</li>
 </ul>
 
-<h3 id="and-an-ordered-list">And an ordered list:</h3>
-
-<ol>
-  <li>Item one
-    <ol>
-      <li>Item one</li>
-      <li>Item two
-        <ol>
-          <li>Item one</li>
-          <li>Item two</li>
-          <li>Item three</li>
-        </ol>
-      </li>
-      <li>Item three</li>
-    </ol>
-  </li>
-  <li>Item four</li>
-  <li>Item two</li>
-  <li>Item three</li>
-  <li>Item four</li>
-</ol>
-
-<h3 id="and-a-nested-list">And a nested list:</h3>
+<h2 id="roles-and-responsibilities">Roles and Responsibilities</h2>
 
 <ul>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item
-        <ul>
-          <li>level 3 item</li>
-          <li>level 3 item</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
-  </li>
-  <li>level 1 item
-    <ul>
-      <li>level 2 item</li>
-      <li>level 2 item</li>
-    </ul>
-  </li>
-  <li>level 1 item</li>
+  <li><strong>Led UI/UX Design</strong>: Created an intuitive and user-friendly design to enhance the product experience.</li>
+  <li><strong>Conducted Customer Discovery</strong>: Engaged in 1:1 interviews and distributed surveys to gather user feedback and needs, thereby shaping our product direction.</li>
+  <li><strong>Database Design</strong>: Structured and optimized the database for maximum efficiency and data integrity.</li>
+  <li><strong>Managed Project</strong>: Created and managed tasks and sprints, ensuring the timely delivery of features and updates.</li>
+  <li><strong>Developed Core Features</strong>: Worked on pivotal feature development to enhance user experience and product usability.</li>
+  <li><strong>Created Core Art Assets</strong>: Designed visually appealing art assets to elevate the aesthetic appeal of our tool.</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long.
-</code></pre></div></div>
+<h2 id="features">Features</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The final element.
-</code></pre></div></div>]]></content><author><name>Sharad Raj Singh Maurya</name><email>dev_sharad@outlook.com</email></author><category term="jekyll" /><category term="Test Post" /><category term="first post" /><summary type="html"><![CDATA[Text can be bold, italic, strikethrough or keyword]]></summary></entry><entry><title type="html">The Purpose of Education</title><link href="http://localhost:4000/posts/the-purpose-of-education/" rel="alternate" type="text/html" title="The Purpose of Education" /><published>1948-12-12T06:18:00-04:00</published><updated>1948-12-12T06:18:00-04:00</updated><id>http://localhost:4000/posts/the-purpose-of-education</id><content type="html" xml:base="http://localhost:4000/posts/the-purpose-of-education/"><![CDATA[<p>As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.</p>
+<p><strong>Dynamic Lighting:</strong> Dynamic lighting allows users to create lights (e.g. candle) that do not penetrate walls. Combined with color filters, these lights allow for a more emmersive map.</p>
 
-<p><img src="https://picsum.photos/800/300" alt="alt" /></p>
+<p><strong>Wall Intersections:</strong> When testing our competitor’s tools, the wall tool was where things would break in stress testing. We managed to build a robust wall tool that can handle everything the average use would throw at it.</p>
 
-<p>It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.</p>
+<p><strong>Stair Tool:</strong> In our original version of the builder, placing stairs was a challenge. Even though you could see the map layer below as you placed the second story staircase, you often had them misaligned. The stair tool solves this issue by automatically placing stairs above/below the active staircase.</p>
 
-<p>Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one’s self is very difficult. We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.</p>
+<p><strong>Portal Tool:</strong> The most math intensive tool, portals can be placed along any valid wall and will automatically remove/add the wall beneath upon placing and deleting. The tool adapts to the portal size so that the art assets are not restricted like some tools.</p>
 
-<p>The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.</p>
+<h2 id="future-developments">Future Developments</h2>
 
-<p>The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?</p>
+<p>We’re constantly striving to innovate and enhance the capabilities of TileForge. Our current endeavor is the integration of an AI-driven dungeon generator and room decorator. This feature will further simplify map creation and enable users to create good-looking maps in significantly less time. By continuing to listen to our community and refine our tool, we aim to remain at the forefront of virtual map creation for tabletop role-playing games.</p>
 
-<p>We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.</p>
+<h2 id="elaborated-challenges--solutions">Elaborated Challenges &amp; Solutions</h2>
 
-<p>If we are not careful, our colleges will produce a group of close-minded, unscientific, illogical propagandists, consumed with immoral acts. Be careful, “brethren!” Be careful, teachers!</p>]]></content><author><name>Sharad Raj Singh Maurya</name><email>dev_sharad@outlook.com</email></author><category term="fiction" /><category term="jekyll" /><summary type="html"><![CDATA[As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.]]></summary></entry></feed>
+<h3 id="challenge-1-wall-corners--the-janky-conundrum">Challenge 1: Wall Corners – The Janky Conundrum</h3>
+
+<p>One of the most prominent challenges in 2D graphics engines is texture/UV mapping, particularly around corners. After several attempts and iterations with this approach, we found the results to be far from ideal – let’s just say it was rather “janky”.</p>
+
+<p>The primary issue was rendering wall textures that didn’t necessitate a low-resolution image being stretched, sliced, or rotated to fill the triangles created by the UV mapping around corners. We knew we needed a different approach.</p>
+
+<h4 id="solution-1-masking">Solution 1: Masking</h4>
+
+<p>To combat this, we shifted our strategy from mapping textures to employing masking techniques. Instead of wrapping a texture around the corner based on a single set of points (one line), we would offset the lines to both sides and create two polygons (or one polygon in the case of open loops). One polygon would represent the outer perimeter,</p>
+
+<p>while the other would form the hole in the center. Once the texture was drawn and masked, the black outline was added using the polygons.</p>
+
+<p>This alternative method allowed us to develop tiling wall textures that remained consistent and free from distortion, as the masks would only reveal the texture where the wall was intended to be.</p>
+
+<h3 id="challenge-2-wall-intersections">Challenge 2: Wall Intersections</h3>
+
+<p>While our inventive masking technique solved the issue with wall corners, it also amplified the intricacy of wall intersections.</p>
+
+<p>Initially, walls were drawn as separate objects in a PIXI container that could be individually deleted. If a wall was drawn atop another, it simply appeared above it. However, with the masking technique, all textures were flattened to a single texture layer masked using polygon data. Individual walls were no longer identifiable, as all the polygons had to be reduced down based on their intersections. This posed a significant problem: there’s a myriad of possible combinations for overlapping polygon intersections, each requiring isolation, condition writing, and testing.</p>
+
+<h4 id="solution-2-whiteboard-sessions--persistence">Solution 2: Whiteboard Sessions + Persistence</h4>
+
+<p>Our approach to this was exhaustive but effective: a multitude of whiteboard sessions dedicated to identifying every possible intersection condition and illustrating them. For example, a polygon could overlap the perimeter of another, or a polygon could be inside another but not touch the perimeter.</p>
+
+<p>The complexity grew when considering PixiJS does not permit drawing holes within holes, a scenario that frequently occurs when designing large building layouts. To solve this, we developed a tracking system for parent-child relationships during boolean functions, ensuring the correct assignment of holes to their parent polygons at the end of the sequence.</p>
+
+<p>For each intersection case, we determined what boolean functions needed to be applied and constructed a stack that processed through each existing polygon on the map sequentially. As new polygons were created from boolean functions (e.g., a new hole was formed), they were added to the stack and processed in the correct order. This stack was vital to avoid any out-of-sequence holes or polygons that would result in incorrect parent-child relationships when the final polygons were rendered by PixiJS.</p>
+
+<h3 id="challenge-3-image-transfer-costs--data-overhead">Challenge 3: Image Transfer Costs – Data Overhead</h3>
+
+<p>TileForge, being a web-based application, doesn’t have the benefit of storing art assets locally like some competitors do. This means that each time a user logs in, all art textures need to be requested from the database and loaded into the app, which could lead to significant data transfer costs (~10-15mb of assets each login) when operating at scale.</p>
+
+<h4 id="solution-3-local-caching">Solution 3: Local Caching</h4>
+
+<p>We employed browser caching to locally store the images temporarily in the user’s local storage. When a user logs in, the app checks if the assets already exist and loads them in if necessary. If new or updated assets are detected, the app reloads those assets to ensure the user always has the most current versions of the art. This strategy effectively mitigates high data transfer costs while maintaining a smooth and up-to-date user experience.</p>]]></content><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><category term="React" /><category term="NextJS" /><category term="TypeScript" /><category term="PixiJS" /><category term="Supabase" /><summary type="html"><![CDATA[A free to use, web based map builder for tabletop roleplaying gamers.]]></summary></entry><entry><title type="html">OttoPlot</title><link href="http://localhost:4000/posts/ottoplot/" rel="alternate" type="text/html" title="OttoPlot" /><published>2023-06-28T00:00:00-03:00</published><updated>2023-06-28T00:00:00-03:00</updated><id>http://localhost:4000/posts/ottoplot</id><content type="html" xml:base="http://localhost:4000/posts/ottoplot/"><![CDATA[<h1 id="ottoplot-pushing-boundaries-in-generative-art">OttoPlot: Pushing Boundaries in Generative Art</h1>
+
+<p>OttoPlot is a creative, generative art project conceived to push the boundaries of my software development skills. Employing a pen plotting machine, Python, and Houdini (Python + VEX), the system processes 3D models into 2D representations and translates them into GCode - the language that CNC machines utilize. This GCode is subsequently transferred to the pen plotter, which diligently sketches the designs onto paper.</p>
+
+<h2 id="background">Background</h2>
+
+<p>OttoPlot emerged from the desire to go beyond the typical web-app development work I was doing from 9-5 and explore generative art. This was an opportunity to revisit fundamental math and challenge myself to learn a new language (VEX).</p>
+
+<h3 id="mission-statement">Mission Statement</h3>
+
+<p>To create generative art through creative programming, thereby transforming 3D models into unique 2D representations.</p>
+
+<h2 id="technology-stack">Technology Stack</h2>
+
+<p>To ensure the flawless execution of this intricate process, a robust and specialized tech stack was utilized:</p>
+
+<ul>
+  <li>Python</li>
+  <li>Houdini</li>
+  <li>Python (with VEX in Houdini)</li>
+  <li>Pen Plotting Machine</li>
+  <li>GCode</li>
+</ul>
+
+<h2 id="project-journey">Project Journey</h2>
+
+<p>OttoPlot’s journey began with curiousity and exploration, during which I revisited basic geometry, algorithm design, and learned about GCode generation. This learning phase was instrumental in shaping the trajectory of the project and in setting a solid foundation for the development work ahead.</p>
+
+<ul>
+  <li>Developing Python scripts to process 3D models into 2D representations.</li>
+  <li>Learning and implementing VEX scripting in Houdini for advanced 3D model manipulation.</li>
+  <li>Parsing 2D representations into GCode.</li>
+  <li>Managing and calibrating the pen plotting machine to ensure accurate output.</li>
+  <li>Refining the algorithm to optimize the aesthetic appeal of the final designs.</li>
+</ul>
+
+<h2 id="roles-and-responsibilities">Roles and Responsibilities</h2>
+
+<p><strong>Mathematical Modeling</strong>: Developed and implemented complex geometrical and algorithmic models.
+<strong>Software Development</strong>: Designed and wrote Python scripts for model processing and GCode generation.
+<strong>Machine Operation</strong>: Managed the pen plotting machine, ensuring its calibration and correct operation.
+<strong>Aesthetic Refinement</strong>: Iteratively improved the algorithm to optimize the aesthetic appeal of the final designs.</p>]]></content><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><category term="Python" /><category term="VEX" /><category term="Houdini" /><summary type="html"><![CDATA[A generative AI project using Python, VEX, and GCode to process 3D objects into vector shapes and drawn with pen plotting machine.]]></summary></entry><entry><title type="html">Protogen</title><link href="http://localhost:4000/posts/protogen/" rel="alternate" type="text/html" title="Protogen" /><published>2023-06-27T00:00:00-03:00</published><updated>2023-06-27T00:00:00-03:00</updated><id>http://localhost:4000/posts/protogen</id><content type="html" xml:base="http://localhost:4000/posts/protogen/"><![CDATA[<p>Protogen is an internal project built to streamline our team’s capability in rapidly prototyping custom solutions for our clients. Specifically designed for use in manufacturing facilities, we aimed to customize software to cater to a diverse range of use cases put forth by our clients. However, we frequently faced capacity constraints due to the considerable time invested in constructing these custom solutions over our existing software base.</p>
+
+<h2 id="background">Background</h2>
+
+<p>Working hand in hand with our CTO, we developed a no-code platform during after-hours for internal use. Protogen’s solution transformed AirTable relational tables into an SQL database, which was further leveraged by a series of scripts to construct the necessary forms and pages using Django and NextJS. By implementing standardized forms and CRUD operations, our team could transition from an AirTable prototype to a fully deployed MVP on Vercel in less than 10 minutes.</p>
+
+<p>Though an internal project, a similar application named Stacker was developed and launched publicly around the same period. Our unique implementation was better suited to our company’s needs. By transitioning to SQL, we were not confined by the delay in response times when updating/requesting records via AirTable’s API, which at the time stood between 5 to 10 minutes.</p>
+
+<h2 id="mission-statement">Mission Statement</h2>
+
+<p>Our mission statement: To design a tool that enables rapid prototyping of custom solutions, taking our team from an AirTable prototype to a deployed MVP in under 10 minutes.</p>
+
+<h2 id="technology-stack">Technology Stack</h2>
+
+<ul>
+  <li>SQL (Transferred from AirTable)</li>
+  <li>Django</li>
+  <li>NextJS</li>
+  <li>React</li>
+  <li>Tailwind CSS</li>
+  <li>DigitalOcean</li>
+</ul>
+
+<h2 id="key-responsibilities">Key Responsibilities</h2>
+
+<p>During the project, my key responsibilities included:</p>
+
+<ul>
+  <li><strong>UI/UX Design</strong>: I designed a user-friendly and intuitive interface to optimize the product experience.</li>
+  <li><strong>Database Design</strong>: I structured and optimized the SQL database for maximum efficiency and data integrity.</li>
+  <li><strong>Product Design</strong>: I played a pivotal role in conceptualizing and designing Protogen to address our company’s unique needs.</li>
+  <li><strong>Project Management</strong>: I was in charge of creating and managing tasks and sprints, ensuring timely delivery of updates and features.</li>
+  <li><strong>Co-development of Core Features</strong>: I collaborated directly with the CTO to develop essential features of Protogen via Live Share (5-6 months)</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Protogen serves as a testament to our team’s determination and ability to solve internal bottlenecks, providing an efficient solution to quickly prototype and deploy custom applications for our clients. The success of Protogen is reflected in the significant reduction of our team’s time spent on building custom solutions, paving the way for more effective use of resources.</p>]]></content><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><category term="React" /><category term="TypeScript" /><category term="Django" /><category term="SQL" /><summary type="html"><![CDATA[An internal no-code prototype library that translates AirTable relational tables into SQL + Django with pre-built front-end/CRUD.]]></summary></entry></feed>
