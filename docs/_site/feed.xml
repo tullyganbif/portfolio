@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-30T11:11:22-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jessy Leigh Gervais</title><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><entry><title type="html">TileForge</title><link href="http://localhost:4000/posts/tileforge/" rel="alternate" type="text/html" title="TileForge" /><published>2023-06-29T00:00:00-03:00</published><updated>2023-06-29T00:00:00-03:00</updated><id>http://localhost:4000/posts/tileforge</id><content type="html" xml:base="http://localhost:4000/posts/tileforge/"><![CDATA[<p>TileForge is a dynamic, user-friendly, online map builder designed for tabletop role-playing games. A free-to-use tool, it empowers users to draw and embellish intricate maps, like a medieval castle, a bustling tavern, or an enchanted forest. This tool is a perfect companion to Virtual Tabletops (VTTs like Roll20), allowing users to create and play immersive tabletop role-playing games virtually.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-30T11:24:11-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Jessy Leigh Gervais</title><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><entry><title type="html">TileForge</title><link href="http://localhost:4000/posts/tileforge/" rel="alternate" type="text/html" title="TileForge" /><published>2023-06-29T00:00:00-03:00</published><updated>2023-06-29T00:00:00-03:00</updated><id>http://localhost:4000/posts/tileforge</id><content type="html" xml:base="http://localhost:4000/posts/tileforge/"><![CDATA[<p>TileForge is a dynamic, user-friendly, online map builder designed for tabletop role-playing games. A free-to-use tool, it empowers users to draw and embellish intricate maps, like a medieval castle, a bustling tavern, or an enchanted forest. This tool is a perfect companion to Virtual Tabletops (VTTs like Roll20), allowing users to create and play immersive tabletop role-playing games virtually.</p>
 
 <p>You can try the builder out at: <a href="https://app.tileforge.com">app.tileforge.com</a></p>
 
@@ -94,9 +94,7 @@
 
 <h4 id="solution-3-local-caching">Solution 3: Local Caching</h4>
 
-<p>We employed browser caching to locally store the images temporarily in the user’s local storage. When a user logs in, the app checks if the assets already exist and loads them in if necessary. If new or updated assets are detected, the app reloads those assets to ensure the user always has the most current versions of the art. This strategy effectively mitigates high data transfer costs while maintaining a smooth and up-to-date user experience.</p>]]></content><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><category term="React" /><category term="NextJS" /><category term="TypeScript" /><category term="PixiJS" /><category term="Supabase" /><summary type="html"><![CDATA[A free to use, web based map builder for tabletop roleplaying gamers.]]></summary></entry><entry><title type="html">OttoPlot</title><link href="http://localhost:4000/posts/ottoplot/" rel="alternate" type="text/html" title="OttoPlot" /><published>2023-06-28T00:00:00-03:00</published><updated>2023-06-28T00:00:00-03:00</updated><id>http://localhost:4000/posts/ottoplot</id><content type="html" xml:base="http://localhost:4000/posts/ottoplot/"><![CDATA[<h1 id="ottoplot-pushing-boundaries-in-generative-art">OttoPlot: Pushing Boundaries in Generative Art</h1>
-
-<p>OttoPlot is a creative, generative art project conceived to push the boundaries of my software development skills. Employing a pen plotting machine, Python, and Houdini (Python + VEX), the system processes 3D models into 2D representations and translates them into GCode - the language that CNC machines utilize. This GCode is subsequently transferred to the pen plotter, which diligently sketches the designs onto paper.</p>
+<p>We employed browser caching to locally store the images temporarily in the user’s local storage. When a user logs in, the app checks if the assets already exist and loads them in if necessary. If new or updated assets are detected, the app reloads those assets to ensure the user always has the most current versions of the art. This strategy effectively mitigates high data transfer costs while maintaining a smooth and up-to-date user experience.</p>]]></content><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><category term="React" /><category term="NextJS" /><category term="TypeScript" /><category term="PixiJS" /><category term="Supabase" /><summary type="html"><![CDATA[A free to use, web based map builder for tabletop roleplaying gamers.]]></summary></entry><entry><title type="html">OttoPlot</title><link href="http://localhost:4000/posts/ottoplot/" rel="alternate" type="text/html" title="OttoPlot" /><published>2023-06-28T00:00:00-03:00</published><updated>2023-06-28T00:00:00-03:00</updated><id>http://localhost:4000/posts/ottoplot</id><content type="html" xml:base="http://localhost:4000/posts/ottoplot/"><![CDATA[<p>OttoPlot is a creative, generative art project conceived to push the boundaries of my software development skills. Employing a pen plotting machine, Python, and Houdini (Python + VEX), the system processes 3D models into 2D representations and translates them into GCode - the language that CNC machines utilize. This GCode is subsequently transferred to the pen plotter, which diligently sketches the designs onto paper.</p>
 
 <h2 id="background">Background</h2>
 
@@ -172,4 +170,47 @@
 
 <h2 id="conclusion">Conclusion</h2>
 
-<p>Protogen serves as a testament to our team’s determination and ability to solve internal bottlenecks, providing an efficient solution to quickly prototype and deploy custom applications for our clients. The success of Protogen is reflected in the significant reduction of our team’s time spent on building custom solutions, paving the way for more effective use of resources.</p>]]></content><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><category term="React" /><category term="TypeScript" /><category term="Django" /><category term="SQL" /><summary type="html"><![CDATA[An internal no-code prototype library that translates AirTable relational tables into SQL + Django with pre-built front-end/CRUD.]]></summary></entry></feed>
+<p>Protogen serves as a testament to our team’s determination and ability to solve internal bottlenecks, providing an efficient solution to quickly prototype and deploy custom applications for our clients. The success of Protogen is reflected in the significant reduction of our team’s time spent on building custom solutions, paving the way for more effective use of resources.</p>]]></content><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><category term="React" /><category term="TypeScript" /><category term="Django" /><category term="SQL" /><summary type="html"><![CDATA[An internal no-code prototype library that translates AirTable relational tables into SQL + Django with pre-built front-end/CRUD.]]></summary></entry><entry><title type="html">TileForge Website</title><link href="http://localhost:4000/posts/tileforge-website/" rel="alternate" type="text/html" title="TileForge Website" /><published>2023-06-25T00:00:00-03:00</published><updated>2023-06-25T00:00:00-03:00</updated><id>http://localhost:4000/posts/tileforge-website</id><content type="html" xml:base="http://localhost:4000/posts/tileforge-website/"><![CDATA[<p>After the public launch of the TileForge builder, we needed a website that could capture leads and nurture prospective customers into converted users. We knew we were going to rely heavily on content marketing, so integrating email sign ups and a blog was important. The website would not only function as an informational hub about the product but also hosts an engaging blog and facilitates user registration.</p>
+
+<p>You can view the active website at: <a href="https://tileforge.com">www.tileforge.com</a></p>
+
+<h2 id="objective">Objective</h2>
+
+<p>Our aim was ambitious yet straightforward: to develop an engaging, informative platform that would not only act as a gateway to our map builder but also significantly enhance our content marketing efforts. A crucial part of our strategy was the inclusion of a blog and email sign-ups, which would help in both attracting and nurturing leads. Building on this foundation, we devised TileForge Website, which has since played a pivotal role in converting prospects into active users, with a customer base that continues to grow steadily.</p>
+
+<h2 id="mission-statement">Mission Statement</h2>
+
+<p>To create an attractive, high converting website for the TileForge project.</p>
+
+<h2 id="technology-stack">Technology Stack</h2>
+
+<p>To ensure a superior user experience and peak performance, we employed a robust tech stack:</p>
+
+<ul>
+  <li>Contentful</li>
+  <li>NextJS</li>
+  <li>React</li>
+  <li>React Redux</li>
+  <li>Tailwind CSS</li>
+  <li>Vercel</li>
+</ul>
+
+<h2 id="project-development">Project Development</h2>
+
+<p>Following the public launch of the TileForge builder, our team dedicated itself to developing a complementary website that would aid in lead generation and user conversion. The project started in May 2023, shortly after the builder’s launch, and culminated in a successful public release in September 2023. My role during this period was extensive and included:</p>
+
+<ul>
+  <li>Establishing the Contentful database to manage website content efficiently.</li>
+  <li>Integrating an engaging blog section to bolster content marketing efforts.</li>
+  <li>Incorporating an email sign-up feature to capture and nurture leads.</li>
+  <li>Streamlining UI/UX for a smooth and user-friendly browsing experience.</li>
+</ul>
+
+<h2 id="roles-and-responsibilities">Roles and Responsibilities</h2>
+
+<p><strong>Led UI/UX Design</strong>: Devised a user-friendly and intuitive design to boost the browsing experience.
+<strong>Managed Content</strong>: Oversaw the curation and presentation of engaging and informative content to attract and nurture leads.
+<strong>Database Design</strong>: Structured and optimized the Contentful database to manage website content effectively.
+<strong>Managed Project</strong>: Coordinated and oversaw tasks and milestones, ensuring timely delivery of features and updates.
+<strong>Developed Core Features</strong>: Played a key role in feature development, such as blog integration and email sign-ups, to enhance user engagement and lead conversion.
+<strong>Executed Marketing Strategies</strong>: Effectively leveraged content marketing and lead nurturing strategies to convert prospects into active users.</p>]]></content><author><name>Jessy Leight Gervais</name><email>jl@copykit.io</email></author><category term="NextJS" /><category term="React" /><category term="React Redux" /><category term="Contentful" /><category term="TailwindCSS" /><summary type="html"><![CDATA[A marketing website for the TileForge project, including a blog.]]></summary></entry></feed>
