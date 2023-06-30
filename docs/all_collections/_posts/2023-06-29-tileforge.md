@@ -10,6 +10,8 @@ description: A free to use, web based map builder for tabletop roleplaying gamer
 
 TileForge is a dynamic, user-friendly, online map builder designed for tabletop role-playing games. A free-to-use tool, it empowers users to draw and embellish intricate maps, like a medieval castle, a bustling tavern, or an enchanted forest. This tool is a perfect companion to Virtual Tabletops (VTTs like Roll20), allowing users to create and play immersive tabletop role-playing games virtually.
 
+You can try the builder out at: [app.tileforge.com](https://app.tileforge.com)
+
 ## Mission Statement
 
 To create a user-friendly map builder that allows anyone to design a visually stunning map in under 15 minutes.

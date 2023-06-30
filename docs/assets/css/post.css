@@ -35,7 +35,12 @@ body {
   border-bottom: 1px solid cyan;
 }
 header {
-  padding: 2rem 0 4rem 0;
+  padding: 2rem 0 2rem 0;
+}
+
+#img-wrapper img {
+  border-radius: 50%;
+  max-width: 100px;
 }
 .site-title {
   font-size: 1.4rem;

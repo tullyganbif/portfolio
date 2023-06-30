@@ -120,11 +120,17 @@ main {
   flex-direction: column;
   justify-content: space-between;
   padding: 2rem;
-  width: 40%;
+  width: calc(50% - 2%); /* 50% minus half of the column-gap */
   background: var(--gray-3);
   border-radius: 15px;
   transition: all 0.2s ease-in-out;
 }
+
+.articles,
+.articles .article {
+  box-sizing: border-box;
+}
+
 
 /* Media query for mobile views */
 @media (max-width: 956px) {
